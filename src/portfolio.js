@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Java Developer 🚀 with a strong foundation in Core Java, Object-Oriented Programming, JDBC, Collections Framework, SQL, Exception Handling and Multithreading. I enjoy building real-world Java applications and continuously learning backend technologies."
   ),
-  resumeLink: "/resume.pdf",
+  resumeLink: "/updatedResume.pdf",
   displayGreeting: true
 };
 
