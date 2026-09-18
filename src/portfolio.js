@@ -146,6 +146,19 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Software Engineer Trainee",
+      company: "ASP OL Media Pvt. Ltd.",
+      companylogo: require("./assets/images/asp.jpg"),
+      date: "Oct 2025 – Feb 2026",
+      desc: "Assisted in software development and testing activities while collaborating with team members and gaining practical exposure to professional software engineering practices.",
+      descBullets: [
+        "Participated in debugging, issue tracking, and application maintenance.",
+        "Worked with development tools and followed the Software Development Life Cycle (SDLC).",
+        "Collaborated with team members to understand software development workflows."
+      ]
+    },
+
+    {
       role: "Java Specialist Intern",
       company: "Cognifyz Technologies",
       companylogo: require("./assets/images/cognifyzlogo.png"),
@@ -175,6 +188,19 @@ const bigProjects = {
 
   projects: [
     {
+      image: require("./assets/images/e_com.jpg"),
+      projectName: "Mini E-Commerce System",
+      projectDesc:
+        "A Java-based e-commerce application developed using JDBC and MySQL, supporting product management, shopping cart operations, order placement, stock validation, order history and transaction management.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "YOUR_GITHUB_REPOSITORY_LINK"
+        }
+      ]
+    },
+
+    {
       image: require("./assets/images/bank.png"),
       projectName: "Bank Management System",
       projectDesc:
@@ -196,19 +222,6 @@ const bigProjects = {
         {
           name: "GitHub",
           url: "https://github.com/ashutoshmallik610/Railway-Management-System"
-        }
-      ]
-    },
-
-    {
-      image: require("./assets/images/rapido.png"),
-      projectName: "Rapido Ride Booking System",
-      projectDesc:
-        "A console-based ride booking application supporting Bike, Auto and Cab booking with fare calculation, runtime polymorphism, inheritance and multithreading.",
-      footerLink: [
-        {
-          name: "GitHub",
-          url: "https://github.com/ashutoshmallik610/RapidoBook"
         }
       ]
     }
